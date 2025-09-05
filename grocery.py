@@ -1,0 +1,8 @@
+a=int(input("item1 price:"))
+b=int(input("Quantity:"))
+c=int(input("item2 price:"))
+d=int(input("Quantity:"))
+e=int(input("item1 price:"))
+f=int(input("Quantity:"))
+total=(a*b)+(c*d)+(e*f)
+print("Total Bill = (",a,"*",b,")","+","(",c,"*",d,")","+","(",e,"*",f,")=",total)
